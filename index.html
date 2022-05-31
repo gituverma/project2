@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Age to days converter</title>
+</head>
+<body>
+    <div class="container-1">
+        <h1 class="alert alert-success">Enter your age</h1>
+       <div class="flex-box-container-1">
+           <div>
+               <button class="btn btn-primary" onclick="clickMe()">Click me</button>
+           </div>
+           <div>
+               <button class="btn btn-secondary" onclick="reset()">Reset</button>
+           </div>
+        </div>   
+           <div class="flex-box-container-1">
+               <div id="flex-box-result">
+                   
+               </div>
+               
+           
+            </div>
+    </div>
+    <div class="container-2">
+        <h1 class="alert alert-success"> cat genetrator</h1>
+        <div class="flexbox-container-2">
+            <div>
+                <button class="btn btn-outline-success" onclick="generate()">Generate</button>
+            </div>
+            <div>
+                <button class="btn btn-outline-danger" onclick="remove()">Remove</button>
+            </div>
+           
+        </div>
+        <div class="flexbox-container-2">
+            <div class="flexbox-images" id="image">
+
+            </div>
+        </div>
+    </div>
+    <div class="container-3">
+        <h1 class="alert alert-success">Rock, Paper and Scissor</h1>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id="rock" src="https://tse3.mm.bing.net/th?id=OIP.yAn9NaKpa88Vh3SLkBHxoQHaEK&pid=Api&P=0&w=282&h=159" height="150" width="150" alt="rock" onclick="start(this)">
+            <img id="paper" src="https://tse1.mm.bing.net/th?id=OIP.dS3hLzdnuYZJ_HP1XKC9xwHaEZ&pid=Api&P=0&w=292&h=174" height="150" width="150" alt="paper" onclick="start(this)"> 
+            <img id="scissors" src="https://tse2.mm.bing.net/th?id=OIP.SG58JKA1-JZ8aF8UkQf_OgHaE7&pid=Api&P=0&w=249&h=166" height="150" width="150" alt="scissors" onclick="start(this)">
+        </div>
+
+    </div>
+    <script src="age.js"></script>
+</body>
+</html>

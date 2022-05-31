@@ -1,0 +1,29 @@
+.container-1,.container-2,.container-3 {
+    border: 1px solid green;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+.flex-box-container-1,.flexbox-container-2,.flex-box-rps{
+    border: 1px solid red;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.flex-box-container-1,  div{
+    border: 1px solid green;
+    align-items: center;
+    padding: 15px;
+}
+.flexbox-container-2 img{
+    
+    margin: 10px;
+    box-shadow: 10px 10px 8px 10px #888888
+}
+
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgb(133, 236, 101);
+}
